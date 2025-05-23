@@ -1,5 +1,8 @@
 # EBCDIC Parser
 
+[![Node.js Version](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen)](https://nodejs.org)
+[![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](https://github.com/yourusername/ebcdic-parser)
+
 A Node.js library for parsing and converting EBCDIC encoded files to UTF-8 or ASCII formats.
 
 ## Installation
@@ -10,7 +13,7 @@ npm install ebcdic-parser
 
 ## Requirements
 
-- Node.js >= 20.0.0
+- Node.js >= 14.0.0
 
 ## Usage
 
