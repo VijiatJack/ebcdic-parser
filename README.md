@@ -8,7 +8,7 @@ A Node.js library for parsing and converting EBCDIC encoded files to UTF-8 or AS
 ## Installation
 
 ```bash
-npm install ebcdic-parser
+npm install ebcdic-parse
 ```
 
 ## Requirements
@@ -20,7 +20,7 @@ npm install ebcdic-parser
 ### Converting a Buffer
 
 ```typescript
-import { EBCDICParser } from 'ebcdic-parser';
+import { EBCDICParser } from 'ebcdic-parse';
 
 // Convert EBCDIC buffer to ASCII
 const ebcdicBuffer = Buffer.from([0x40, 0x4A, 0x4B]); // Space, LF, Period in EBCDIC
@@ -31,7 +31,7 @@ console.log(asciiBuffer.toString()); // Output: " \n."
 ### Converting a File
 
 ```typescript
-import { EBCDICParser } from 'ebcdic-parser';
+import { EBCDICParser } from 'ebcdic-parse';
 
 // Convert EBCDIC file to UTF-8
 async function convertFile() {

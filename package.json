@@ -1,5 +1,5 @@
 {
-  "name": "ebcdic-parser",
+  "name": "ebcdic-parse",
   "version": "1.0.0",
   "description": "A Node.js library for parsing and converting EBCDIC encoded files to UTF-8 or ASCII formats",
   "main": "dist/index.js",
