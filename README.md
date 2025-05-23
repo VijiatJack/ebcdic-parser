@@ -1,7 +1,7 @@
 # EBCDIC Parser
 
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen)](https://nodejs.org)
-[![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](https://github.com/yourusername/ebcdic-parser)
+[![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](https://github.com/VijiatJack/ebcdic-parser)
 
 A Node.js library for parsing and converting EBCDIC encoded files to UTF-8 or ASCII formats.
 
